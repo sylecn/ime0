@@ -1,0 +1,65 @@
+* the example typing
+GNU PDF
+
+The goal of the GNU PDF project is to develop and provide a free,
+high-quality, complete, and portable set of libraries and programs to manage
+the PDF file format (ISO 32000), and associated technologies.
+
+In the near future PDF 1.7 will become ISO 32000, an international standard,
+and currently free software PDF programs support few of the features that PDF
+files support. We believe that we urgently need a collection of free software
+PDF libraries and programs that can fully implement this standard and provide
+users with many of the features they are currently missing in their PDF
+applications, such as support for interactive forms and JavaScript validation,
+annotation support, and embedded movies and 3D artwork—just to name a few.
+
+Ways to help: There are many opportunities for volunteers to help take part in
+the creation of this project, from low-level C-programming, to high-level web
+programming, from copyediting documentation, to creating artwork for use
+throughout the applications, manuals, and software itself. Also, consider
+making a directed donation through the FSF, directly to this project.
+
+** example analyze
+produces:
+new term:
+GNU
+PDF
+The
+goal
+of
+the
+...
+new series:
+GNU PDF
+The goal of the GNU PDF project
+is to
+develop and project a free
+...
+
+** after typing the example
+now when you type:
+G
+you get
+1.GNU
+when you type:
+dev
+you get
+1.develop
+
+* terminology
+ime0
+  a input method that starts with nothing and only learn from the user.
+term
+  a term is a basic character/word unit.
+series
+  terms inputed in a consecutive manner.
+  punctuations and spaces force end of series.
+
+* features not so related to the ime
+  easy input punctuations 【 、 。「
+  easy input dates 2009-12-05
+
+* implementation
+
+ime0 encourage input by words.
+every word input by the user becomes a term.
