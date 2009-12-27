@@ -1,3 +1,6 @@
+ref: http://www.freedesktop.org/wiki/KeyboardInputDiscussion
+
+
 write a dumb im to know how all protocol works together.
 
 XIM
@@ -7,11 +10,12 @@ and others.
 
 
 the dumb im works like this:
-| input   | output                         |
-|---------+--------------------------------|
-| name    | Yuanle Song                    |
-| email   | Yuanle Song <sylecn@gmail.com> |
-| address | xxx                            |
-| phone   | 512-897-9598                   |
-|         |                                |
+| input     | output                         |
+|-----------+--------------------------------|
+| name      | Yuanle Song                    |
+| email     | Yuanle Song <sylecn@gmail.com> |
+| address   | xxx                            |
+| phone     | 512-897-9598                   |
+| fh (符号) | list common symbols            |
+|           |                                |
 
