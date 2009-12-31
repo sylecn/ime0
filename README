@@ -2,3 +2,17 @@ ime0
 
 goal:
 trying to build a completely self learning input method.
+
+
+
+
+
+
+
+
+
+
+ref:
+----
+ibus api:
+    http://ibus.googlecode.com/svn/docs/ibus/index.html
